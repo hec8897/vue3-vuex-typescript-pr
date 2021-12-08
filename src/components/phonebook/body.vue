@@ -1,5 +1,14 @@
 <template>
     <div>
-        123
+        <phoneList/>
     </div>
 </template>
+
+<script lang="ts">
+import { defineComponent } from 'vue'
+import phoneList from './list.vue'
+
+export default defineComponent({
+    components:{phoneList}
+})
+</script>
