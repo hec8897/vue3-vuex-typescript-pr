@@ -9,6 +9,8 @@
 </template>
 
 <style lang="scss">
+@import "@/assets/elements.scss";
+
 *{
   margin: 0;
   padding: 0;

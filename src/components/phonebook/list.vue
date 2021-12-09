@@ -57,7 +57,10 @@ div.phone-list{
         padding: 0;
         justify-content: center;
         align-items: center;
+        gap: 20px;
         li{
+            width: 100%;
+            box-sizing: border-box;
             border: 1px solid #222;
             list-style-type: none;
             text-align: left;
